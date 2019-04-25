@@ -1,0 +1,36 @@
+{
+  "skills": [
+    {
+      "name": "latex",
+      "rating": 0,
+      "description": "I wanted to learn this because",
+      "examples": ""
+
+    },
+    {
+      "name": "typescript",
+      "rating": 4,
+      "description": "I first picked up typescript",
+      "examples": ""
+    },
+    {
+      "name": "ansible",
+      "rating": 2,
+      "description": "I was first introduced to ansible",
+      "examples": ""
+    },
+    {
+      "name": "react",
+      "rating": 3,
+      "description": "I was first introduced to react",
+      "examples": ""
+    },
+    {
+      "name": "kubernetes",
+      "rating": 7,
+      "description": "I was first introduced to kubernetes",
+      "examples": ""
+    }
+
+  ]
+}

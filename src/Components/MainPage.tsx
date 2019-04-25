@@ -1,6 +1,7 @@
 import React from "react";
 import {Container, Row, Col, CardBody, Card, CardImg} from 'reactstrap';
 import AboutMe from "./AboutMe";
+import SkillsTable from "./SkillsTable";
 
 class MainPage extends React.Component {
     render() {
@@ -16,6 +17,8 @@ class MainPage extends React.Component {
                         <AboutMe/>
                     </Col>
                 </Row>
+                <br/>
+                <SkillsTable/>
             </Container>
 
         )

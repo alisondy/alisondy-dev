@@ -1,18 +1,20 @@
 import * as React from "react";
 import Card from "reactstrap/lib/Card";
-import {CardBody, CardHeader, CardImg, CardSubtitle, CardText, CardTitle, Col, Container} from "reactstrap";
+import {CardBody, CardSubtitle, CardText, CardTitle, Col} from "reactstrap";
+import * as data from './../Resources/aboutme.json';
 
 class AboutMe extends React.Component {
     render(){
         return (
-
+                <Col>
                 <Card>
-                    <CardBody >
-                        <CardTitle>Card title</CardTitle>
-                        <CardSubtitle>Card subtitle</CardSubtitle>
-                        <CardText>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitais nisi ut aliquip ex \sse cillum dolore eu fugiat nulla pariatur. Exce\".</CardText>
+                    <CardBody>
+                        <CardTitle>{data.name}</CardTitle>
+                        <CardSubtitle>{data.location}</CardSubtitle>
+                        <CardText>{data["about me"]}</CardText>
                     </CardBody>
                 </Card>
+                </Col>
 
         )
     }

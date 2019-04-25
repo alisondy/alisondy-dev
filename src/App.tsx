@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-// import './App.css';
-import './alisondy-bootstrap/css/bootstrap.css';
-import './alisondy-bootstrap/css/bootstrap-grid.css';
-
 import MainPage from "./Components/MainPage";
 import NavBar from "./Components/NavBar";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap-grid.min.css';
 
 class App extends Component {
   render() {
