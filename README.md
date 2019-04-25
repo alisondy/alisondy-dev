@@ -1,4 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## My Personal Website
+
+A simple little website that utilizes
+
+- Typescript
+- React
+- Bootstrap
 
 ## Available Scripts
 
