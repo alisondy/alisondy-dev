@@ -60,7 +60,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #faffc5;
+  background-color: #29282c;
   /*background-image: url("https://i.gifer.com/L4Fz.gif");*/
 
 }
@@ -155,13 +155,13 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #00d38c;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #0056b3;
+  color: #00ff95;
   text-decoration: underline;
 }
 
@@ -4561,9 +4561,11 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: rgb(63, 63, 63);
+  color: #fff;
   background-clip: padding-box;
-  border: 10px groove rgb(107, 252, 212);
+  border: 1px groove #00ff95;
+  box-shadow: 0px 0px 4px #000000;
 }
 
 .card > hr {
@@ -4589,11 +4591,13 @@ input[type="button"].btn-block {
 
 .card-title {
   margin-bottom: 0.75rem;
+  font-size: xxx-large;
 }
 
 .card-subtitle {
   margin-top: -0.375rem;
   margin-bottom: 0;
+  font-size: x-large;
 }
 
 .card-text:last-child {
